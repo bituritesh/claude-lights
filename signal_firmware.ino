@@ -22,8 +22,8 @@
 #include <Adafruit_NeoPixel.h>
 
 // ---------------- config ----------------
-const char* WIFI_SSID = "Excitel_2.4G_47352761";   // 2.4GHz band — the C3 has no 5GHz radio
-const char* WIFI_PASS = "12345678";
+const char* WIFI_SSID = "<your 2.4G wifi name>";   // 2.4GHz band — the C3 has no 5GHz radio
+const char* WIFI_PASS = "<your wifi password>";
 const char* MDNS_NAME = "signal";              // -> http://signal.local
 // Letters and digits ONLY. A backslash in this string is an invalid C++ escape
 // sequence — the compiler strips it, so the ESP holds a different string than the
